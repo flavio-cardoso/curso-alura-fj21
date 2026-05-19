@@ -8,18 +8,16 @@ import br.com.caleum.f21.ConnectionFactory;
 public class TestaConexao {
 
 	public static void main(String[] args) {
-		
+
 		try {
 			Connection con = new ConnectionFactory().getConnection();
 			System.out.println("Conexão realizado com sucesso!");
 			con.close();
 		} catch (SQLException e) {
-			
+
 			e.printStackTrace();
-			
+
 		}
-		
-		
 
 	}
 
