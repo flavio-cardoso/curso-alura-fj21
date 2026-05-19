@@ -1,7 +1,9 @@
-package br.com.caleum.f21;
+package br.com.caelum.fj21.teste;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+
+import br.com.caleum.f21.ConnectionFactory;
 
 public class TestaConexao {
 
